@@ -1,0 +1,10 @@
+
+#Variables
+export DEVBOX_USER=
+export DEVBOX_HOST=
+export DEVBOX_HOME=
+export DEVBOX_MNT=
+
+# Dev Desktop Setup
+alias mc='sshfs $DEVBOX_USER@$DEVBOX_HOST:$DEVBOX_HOME $DEVBOX_MNT -p 22 -o reconnect'
+alias uc='umount $DEVBOX_MNT'
