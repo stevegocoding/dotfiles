@@ -8,3 +8,4 @@ export DEVBOX_MNT=
 # Dev Desktop Setup
 alias mc='sshfs $DEVBOX_USER@$DEVBOX_HOST:$DEVBOX_HOME $DEVBOX_MNT -p 22 -o reconnect'
 alias uc='umount $DEVBOX_MNT'
+alias sshdevbox='ssh $DEVBOX_HOST'
