@@ -22,4 +22,6 @@ export EDITOR=vim
 
 export TERM=xterm-256color
 
-export PATH="/usr/local/bin":$PATH
+export JAVA_HOME=/usr/java/jdk1.8.0_111
+
+export PATH=$JAVA_HOME/bin:$PATH
