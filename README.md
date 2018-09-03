@@ -1,2 +1,2 @@
-# dotfiles_macosx
-Dotfiles for my work machine
+# Setup
+Dotfiles and other setup for my work machine.
